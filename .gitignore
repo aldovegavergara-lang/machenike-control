@@ -1,0 +1,22 @@
+# Publication allowlist: local captures, binaries, screenshots and user state stay local.
+*
+!/.gitignore
+!/README.md
+!/SECURITY.md
+!/PRIVACY.md
+!/Sources/
+!/Sources/*.swift
+!/Tests/
+!/Tests/ProtocolTests.swift
+!/Tests/TargetTests.swift
+!/Tests/ConfigurationTests.swift
+!/Tests/OnboardKeysTests.swift
+!/Tests/FnShortcutTests.swift
+!/Tests/SecurityTests.swift
+!/Tests/TestFixtures.swift
+!/scripts/
+!/scripts/build.sh
+!/scripts/test.sh
+!/scripts/check-publication.py
+!/Docs/
+!/Docs/*.md
